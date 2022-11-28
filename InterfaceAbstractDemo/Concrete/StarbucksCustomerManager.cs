@@ -8,7 +8,7 @@ namespace InterfaceAbstractDemo.Concrete
 {
     public class StarbucksCustomerManager : BaseCustomerManager
     {
-        private ICustomerCheckService _customerCheckService;
+        private ICustomerCheckService  _customerCheckService;
         public StarbucksCustomerManager(ICustomerCheckService customerCheckService)
         {
             _customerCheckService = customerCheckService;
